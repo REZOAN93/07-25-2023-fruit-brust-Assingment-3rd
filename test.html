@@ -31,7 +31,7 @@
             clifford: "#da373d",
             "nav-color": "#F85559",
             "primary-bg": "#FFF",
-            colorarrow: "#121212",
+            "colorarrow": "#121212",
             "footer-color": "#121212",
           },
         },
@@ -121,7 +121,25 @@
               />
             </svg>
           </button>
-          
+          <!-- <button class="btn btn-ghost btn-circle">
+            <div class="indicator">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"
+                />
+              </svg>
+              <span class="badge badge-xs badge-primary indicator-item"></span>
+            </div>
+          </button> -->
         </div>
       </div>
     </header>
@@ -147,7 +165,7 @@
               </div>
             </div>
           </div>
-
+          
           <div
             class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
           >
@@ -183,7 +201,7 @@
               </div>
             </div>
           </div>
-
+          
           <div
             class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
           >
@@ -219,7 +237,7 @@
               </div>
             </div>
           </div>
-
+          
           <div
             class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
           >
@@ -256,7 +274,7 @@
               </div>
             </div>
           </div>
-
+          
           <div
             class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
           >
@@ -274,32 +292,35 @@
         </div>
       </div>
 
-      <div
-        class="relative items-center justify-center shadow-2xl h-[160px] mx-auto w-[800px] bg-primary-bg hidden md:flex lg:flex gap-8 px-12 py-12 rounded-xl -top-24"
-      >
-        <div>
-          <img src="./images/fruit1.png" alt="" />
-          <p class="text-center">Grapes</p>
-        </div>
-        <div>
-          <img src="./images/fruit2.png" alt="" />
-          <p class="text-center">Orange</p>
-        </div>
-        <div>
-          <img src="./images/fruit3.png" alt="" />
-          <p class="text-center">Mango</p>
-        </div>
-        <div>
-          <img src="./images/fruit4.png" alt="" />
-          <p class="text-center">Strawberry</p>
-        </div>
-        <div>
-          <img src="./images/fruit5.png" alt="" />
-          <p class="text-center">Pomegranate</p>
-        </div>
-      </div>
-      <!-- Deal of the day -------------------------------------------------------------------------------------------------->
-      <div class="my-5 p-20 md:p-0 md:my-2 md:mb-20 md:flex space-y-6">
+      <div class="relative items-center justify-center shadow-2xl h-[160px] mx-auto w-[800px] bg-primary-bg hidden md:flex lg:flex gap-8 px-12 py-12 rounded-xl -top-24">
+            <div>
+              <img src="./images/fruit1.png" alt="" />
+              <p class="text-center">Grapes</p>
+            </div>
+            <div>
+              <img src="./images/fruit2.png" alt="" />
+              <p class="text-center">Orange</p>
+            </div>
+            <div>
+              <img src="./images/fruit3.png" alt="" />
+              <p class="text-center">Mango</p>
+            </div>
+            <div>
+              <img src="./images/fruit4.png" alt="" />
+              <p class="text-center">Strawberry</p>
+            </div>
+            <div>
+              <img src="./images/fruit5.png" alt="" />
+              <p class="text-center">Pomegranate</p>
+            </div>
+          </div>
+
+
+
+
+
+
+      <!-- <div class="my-5 p-20 md:p-0 md:my-20 md:flex space-y-6">
         <div class="flex-1 space-y-5">
           <p class="text-5xl">Deal of the day</p>
           <p class="text-gray-500 md: w-10/12 text-justify">
@@ -347,9 +368,10 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
-      <div>
+      <!--  -->
+      <!-- <div>
         <div
           class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8 mx-auto"
         >
@@ -417,88 +439,7 @@
                 />
               </div>
               <div class="card-actions">
-                <!-- Open the modal using ID.showModal() method -->
-                <button class="text-nav-color" onclick="my_modal_1.showModal()">
-                  Details
-                </button>
-                <dialog
-                  id="my_modal_1"
-                  class="modal modal-bottom sm:modal-middle"
-                >
-                  <form method="dialog" class="modal-box">
-                    <div class="flex flex-col justify-center items-center">
-                      <img src="./images/fruit6.png" alt="" />
-                      <p class="text-2xl font-bold my-5">Apples</p>
-                      <p class="w-2/3 my-5">
-                        Professional employees are there for you to pick the
-                        most amazing and fresh fruits.
-                      </p>
-                      <div class="rating rating-md rating-half">
-                        <input
-                          type="radio"
-                          name="rating-1"
-                          class="rating-hidden"
-                        />
-                        <input
-                          type="radio"
-                          name="rating-1"
-                          class="bg-nav-color mask mask-star-2 mask-half-1"
-                        />
-                        <input
-                          type="radio"
-                          name="rating-1"
-                          class="bg-nav-color mask mask-star-2 mask-half-2"
-                        />
-                        <input
-                          type="radio"
-                          name="rating-1"
-                          class="bg-nav-color mask mask-star-2 mask-half-1"
-                          checked
-                        />
-                        <input
-                          type="radio"
-                          name="rating-1"
-                          class="bg-nav-color mask mask-star-2 mask-half-2"
-                        />
-                        <input
-                          type="radio"
-                          name="rating-1"
-                          class="bg-nav-color mask mask-star-2 mask-half-1"
-                        />
-                        <input
-                          type="radio"
-                          name="rating-1"
-                          class="bg-nav-color mask mask-star-2 mask-half-2"
-                        />
-                        <input
-                          type="radio"
-                          name="rating-1"
-                          class="bg-nav-color mask mask-star-2 mask-half-1"
-                        />
-                        <input
-                          type="radio"
-                          name="rating-1"
-                          class="bg-nav-color mask mask-star-2 mask-half-2"
-                        />
-                        <input
-                          type="radio"
-                          name="rating-1"
-                          class="bg-nav-color mask mask-star-2 mask-half-1"
-                        />
-                        <input
-                          type="radio"
-                          name="rating-1"
-                          class="bg-nav-color mask mask-star-2 mask-half-2"
-                        />
-                      </div>
-                    </div>
-                    <div class="modal-action justify-center">
-                      <!-- if there is a button in form, it will close the modal -->
-                      <button class="btn bg-white border-red-400 text-red-600">Close</button>
-                      <button class="btn bg-nav-color border-none text-white hover:bg-red-500">Buy Now</button>
-                    </div>
-                  </form>
-                </dialog>
+                <button class="text-nav-color">Details</button>
               </div>
             </div>
           </div>
@@ -566,88 +507,7 @@
                 />
               </div>
               <div class="card-actions">
-                <!-- Open the modal using ID.showModal() method -->
-                <button class="text-nav-color" onclick="my_modal_2.showModal()">
-                  Details
-                </button>
-                <dialog
-                  id="my_modal_2"
-                  class="modal modal-bottom sm:modal-middle"
-                >
-                  <form method="dialog" class="modal-box">
-                    <div class="flex flex-col justify-center items-center">
-                      <img src="./images/fruit7.png" alt="" />
-                      <p class="text-2xl font-bold my-5">Orange</p>
-                      <p class="w-2/3 my-5">
-                        Professional employees are there for you to pick the
-                        most amazing and fresh fruits.
-                      </p>
-                      <div class="rating rating-md rating-half">
-                        <input
-                          type="radio"
-                          name="rating-1"
-                          class="rating-hidden"
-                        />
-                        <input
-                          type="radio"
-                          name="rating-1"
-                          class="bg-nav-color mask mask-star-2 mask-half-1"
-                        />
-                        <input
-                          type="radio"
-                          name="rating-1"
-                          class="bg-nav-color mask mask-star-2 mask-half-2"
-                        />
-                        <input
-                          type="radio"
-                          name="rating-1"
-                          class="bg-nav-color mask mask-star-2 mask-half-1"
-                          checked
-                        />
-                        <input
-                          type="radio"
-                          name="rating-1"
-                          class="bg-nav-color mask mask-star-2 mask-half-2"
-                        />
-                        <input
-                          type="radio"
-                          name="rating-1"
-                          class="bg-nav-color mask mask-star-2 mask-half-1"
-                        />
-                        <input
-                          type="radio"
-                          name="rating-1"
-                          class="bg-nav-color mask mask-star-2 mask-half-2"
-                        />
-                        <input
-                          type="radio"
-                          name="rating-1"
-                          class="bg-nav-color mask mask-star-2 mask-half-1"
-                        />
-                        <input
-                          type="radio"
-                          name="rating-1"
-                          class="bg-nav-color mask mask-star-2 mask-half-2"
-                        />
-                        <input
-                          type="radio"
-                          name="rating-1"
-                          class="bg-nav-color mask mask-star-2 mask-half-1"
-                        />
-                        <input
-                          type="radio"
-                          name="rating-1"
-                          class="bg-nav-color mask mask-star-2 mask-half-2"
-                        />
-                      </div>
-                    </div>
-                    <div class="modal-action justify-center">
-                      <!-- if there is a button in form, it will close the modal -->
-                      <button class="btn bg-white border-red-400 text-red-600">Close</button>
-                      <button class="btn bg-nav-color border-none text-white hover:bg-red-500">Buy Now</button>
-                    </div>
-                  </form>
-                </dialog>
+                <button class="text-nav-color">Details</button>
               </div>
             </div>
           </div>
@@ -715,88 +575,7 @@
                 />
               </div>
               <div class="card-actions">
-                <!-- Open the modal using ID.showModal() method -->
-                <button class="text-nav-color" onclick="my_modal_3.showModal()">
-                  Details
-                </button>
-                <dialog
-                  id="my_modal_3"
-                  class="modal modal-bottom sm:modal-middle"
-                >
-                  <form method="dialog" class="modal-box">
-                    <div class="flex flex-col justify-center items-center">
-                      <img src="./images/fruit8.png" alt="" />
-                      <p class="text-2xl font-bold my-5">Red Dragon</p>
-                      <p class="w-2/3 my-5">
-                        Professional employees are there for you to pick the
-                        most amazing and fresh fruits.
-                      </p>
-                      <div class="rating rating-md rating-half">
-                        <input
-                          type="radio"
-                          name="rating-1"
-                          class="rating-hidden"
-                        />
-                        <input
-                          type="radio"
-                          name="rating-1"
-                          class="bg-nav-color mask mask-star-2 mask-half-1"
-                        />
-                        <input
-                          type="radio"
-                          name="rating-1"
-                          class="bg-nav-color mask mask-star-2 mask-half-2"
-                        />
-                        <input
-                          type="radio"
-                          name="rating-1"
-                          class="bg-nav-color mask mask-star-2 mask-half-1"
-                          checked
-                        />
-                        <input
-                          type="radio"
-                          name="rating-1"
-                          class="bg-nav-color mask mask-star-2 mask-half-2"
-                        />
-                        <input
-                          type="radio"
-                          name="rating-1"
-                          class="bg-nav-color mask mask-star-2 mask-half-1"
-                        />
-                        <input
-                          type="radio"
-                          name="rating-1"
-                          class="bg-nav-color mask mask-star-2 mask-half-2"
-                        />
-                        <input
-                          type="radio"
-                          name="rating-1"
-                          class="bg-nav-color mask mask-star-2 mask-half-1"
-                        />
-                        <input
-                          type="radio"
-                          name="rating-1"
-                          class="bg-nav-color mask mask-star-2 mask-half-2"
-                        />
-                        <input
-                          type="radio"
-                          name="rating-1"
-                          class="bg-nav-color mask mask-star-2 mask-half-1"
-                        />
-                        <input
-                          type="radio"
-                          name="rating-1"
-                          class="bg-nav-color mask mask-star-2 mask-half-2"
-                        />
-                      </div>
-                    </div>
-                    <div class="modal-action justify-center">
-                      <!-- if there is a button in form, it will close the modal -->
-                      <button class="btn bg-white border-red-400 text-red-600">Close</button>
-                      <button class="btn bg-nav-color border-none text-white hover:bg-red-500">Buy Now</button>
-                    </div>
-                  </form>
-                </dialog>
+                <button class="text-nav-color">Details</button>
               </div>
             </div>
           </div>
@@ -865,88 +644,7 @@
                 />
               </div>
               <div class="card-actions">
-                <!-- Open the modal using ID.showModal() method -->
-                <button class="text-nav-color" onclick="my_modal_4.showModal()">
-                  Details
-                </button>
-                <dialog
-                  id="my_modal_4"
-                  class="modal modal-bottom sm:modal-middle"
-                >
-                  <form method="dialog" class="modal-box">
-                    <div class="flex flex-col justify-center items-center">
-                      <img src="./images/fruit9.png" alt="" />
-                      <p class="text-2xl font-bold my-5">Banana</p>
-                      <p class="w-2/3 my-5">
-                        Professional employees are there for you to pick the
-                        most amazing and fresh fruits.
-                      </p>
-                      <div class="rating rating-md rating-half">
-                        <input
-                          type="radio"
-                          name="rating-1"
-                          class="rating-hidden"
-                        />
-                        <input
-                          type="radio"
-                          name="rating-1"
-                          class="bg-nav-color mask mask-star-2 mask-half-1"
-                        />
-                        <input
-                          type="radio"
-                          name="rating-1"
-                          class="bg-nav-color mask mask-star-2 mask-half-2"
-                        />
-                        <input
-                          type="radio"
-                          name="rating-1"
-                          class="bg-nav-color mask mask-star-2 mask-half-1"
-                          checked
-                        />
-                        <input
-                          type="radio"
-                          name="rating-1"
-                          class="bg-nav-color mask mask-star-2 mask-half-2"
-                        />
-                        <input
-                          type="radio"
-                          name="rating-1"
-                          class="bg-nav-color mask mask-star-2 mask-half-1"
-                        />
-                        <input
-                          type="radio"
-                          name="rating-1"
-                          class="bg-nav-color mask mask-star-2 mask-half-2"
-                        />
-                        <input
-                          type="radio"
-                          name="rating-1"
-                          class="bg-nav-color mask mask-star-2 mask-half-1"
-                        />
-                        <input
-                          type="radio"
-                          name="rating-1"
-                          class="bg-nav-color mask mask-star-2 mask-half-2"
-                        />
-                        <input
-                          type="radio"
-                          name="rating-1"
-                          class="bg-nav-color mask mask-star-2 mask-half-1"
-                        />
-                        <input
-                          type="radio"
-                          name="rating-1"
-                          class="bg-nav-color mask mask-star-2 mask-half-2"
-                        />
-                      </div>
-                    </div>
-                    <div class="modal-action justify-center">
-                      <!-- if there is a button in form, it will close the modal -->
-                      <button class="btn bg-white border-red-400 text-red-600">Close</button>
-                      <button class="btn bg-nav-color border-none text-white hover:bg-red-500">Buy Now</button>
-                    </div>
-                  </form>
-                </dialog>
+                <button class="text-nav-color">Details</button>
               </div>
             </div>
           </div>
@@ -958,9 +656,9 @@
             Shop All
           </button>
         </div>
-      </div>
-<!-- Meet the team section ---------------------------------------------------------------------------------------->
-      <div>
+      </div> -->
+
+      <!-- <div>
         <div
           class="hero min-h-screen rounded-2xl"
           style="background-image: url(./images/team.png)"
@@ -1020,7 +718,6 @@
           </div>
         </div>
       </div>
-      <!--Why Choose Us  ---------------------------------------------------------------------------------------------->
       <div class="my-10">
         <div class="text-center py-10 space-y-6">
           <p class="text-2xl md:text-5xl font-bold">Why Choose Us</p>
@@ -1151,7 +848,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </main>
     <footer
       class="footer footer-center h-[400px] p-10 items-center bg-footer-color text-neutral-content"
@@ -1171,7 +868,7 @@
             <td class="pl-9">My Account</td>
           </tr>
         </table> -->
-        <div class="mt-8 flex flex-wrap gap-2 md:gap-9">
+        <!-- <div class="mt-8 flex flex-wrap gap-2 md:gap-9">
           <p>Home</p>
           <p>About Us</p>
           <p>Shop</p>
@@ -1182,12 +879,13 @@
       </div>
       <div>
         <div class="flex flex-wrap gap-8 mb-20">
-          <img class="h-7" src="./images/New folder/apple.png" alt="" />
-          <img class="h-7" src="./images/New folder/facebook.png" alt="" />
-          <img class="h-7" src="./images/New folder/Group.png" alt="" />
-          <img class="h-7" src="./images/New folder/instagram.png" alt="" />
-          <img class="h-7" src="./images/New folder/linkedin.png" alt="" />
-          <img class="h-7" src="./images/New folder/twitter.png" alt="" />
+          <img class="h-7" src="./images/New folder/apple.png" alt="">
+          <img class="h-7" src="./images/New folder/facebook.png" alt="">
+          <img class="h-7" src="./images/New folder/Group.png" alt="">
+          <img class="h-7" src="./images/New folder/instagram.png" alt="">
+          <img class="h-7" src="./images/New folder/linkedin.png" alt="">
+          <img class="h-7" src="./images/New folder/twitter.png" alt="">
+
         </div>
       </div>
     </footer>

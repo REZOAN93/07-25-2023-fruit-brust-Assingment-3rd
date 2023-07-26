@@ -31,7 +31,8 @@
             clifford: "#da373d",
             "nav-color": "#F85559",
             "primary-bg": "#FFF",
-            colorarrow: "#121212",
+            "colorarrow": "#121212",
+            "footer-color": "#121212",
           },
         },
       },
@@ -44,8 +45,8 @@
       font-family: "Lato", sans-serif;
     }
   </style>
-  <body class="container mx-auto mt-4 space-y-8">
-    <header>
+  <body class="mx-auto mt-4 space-y-8">
+    <header class="container mx-auto">
       <div class="navbar bg-nav-color rounded-[600px]">
         <div class="navbar-start">
           <div class="dropdown flex justify-center items-center gap-11">
@@ -142,7 +143,7 @@
         </div>
       </div>
     </header>
-    <main>
+    <main class="container mx-auto">
       <div class="carousel w-full min-h-screen md:h-[700px] lg:h-[700px]">
         <div id="slide1" class="carousel-item relative w-full">
           <div
@@ -442,7 +443,9 @@
               <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
             </figure>
             <div class="card-body items-center text-center space-y-3">
-              <h2 class="card-title">12.90$ - 18.85$</h2>
+              <h2 class="pb-6 w-full text-center border-b-2 text-xl font-bold">
+                12.90$ - 18.85$
+              </h2>
               <p class="text-gray-600">Apples</p>
               <div class="rating rating-md rating-half">
                 <input type="radio" name="rating-1" class="rating-hidden" />
@@ -508,7 +511,9 @@
               <img src="./images/fruit7.png" alt="Shoes" class="rounded-xl" />
             </figure>
             <div class="card-body items-center text-center space-y-3">
-              <h2 class="card-title">12.90$ - 18.85$</h2>
+              <h2 class="pb-6 w-full text-center border-b-2 text-xl font-bold">
+                12.90$ - 18.85$
+              </h2>
               <p class="text-gray-600">Orange</p>
               <div class="rating rating-md rating-half">
                 <input type="radio" name="rating-2" class="rating-hidden" />
@@ -570,11 +575,13 @@
             </div>
           </div>
           <div class="card bg-base-100 shadow-xl">
-            <figure class="px-10 pt-8">
-              <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
+            <figure class="px-10 pt-10">
+              <img src="./images/fruit8.png" alt="Shoes" class="rounded-xl" />
             </figure>
             <div class="card-body items-center text-center space-y-3">
-              <h2 class="card-title">12.90$ - 18.85$</h2>
+              <h2 class="pb-6 w-full text-center border-b-2 text-xl font-bold">
+                12.90$ - 18.85$
+              </h2>
               <p class="text-gray-600">Red Dragon</p>
               <div class="rating rating-md rating-half">
                 <input type="radio" name="rating-3" class="rating-hidden" />
@@ -640,7 +647,9 @@
               <img src="./images/fruit9.png" alt="Shoes" class="rounded-xl" />
             </figure>
             <div class="card-body items-center text-center space-y-3">
-              <h2 class="card-title">12.90$ - 18.85$</h2>
+              <h2 class="pb-6 w-full text-center border-b-2 text-xl font-bold">
+                12.90$ - 18.85$
+              </h2>
               <p class="text-gray-600">Banana</p>
 
               <div class="rating rating-md rating-half">
@@ -726,10 +735,10 @@
                 roots in a piece of classical <br />
                 Latin literature from 45 BC, making it over 2000 years old.
               </p>
-              <div class="flex flex-wrap gap-8 justify-between md:gap-28 mt-10">
+              <div class="flex flex-wrap gap-6 justify-between md:gap-28 mt-10">
                 <div>
                   <img src="./images/member1.png" alt="" />
-                  <p class="mt-5 text-lg">Awlad Hossain</p>
+                  <p class="mt-5 text-lg font-bold">Awlad Hossain</p>
                   <p class="text-sm">Fruits Expert</p>
                   <div class="flex gap-2 mt-4 justify-center">
                     <img width="25px" src="./images/linkedin.png" alt="" />
@@ -739,7 +748,7 @@
                 </div>
                 <div class="">
                   <img src="./images/member2.png" alt="" />
-                  <p class="mt-5 text-lg">Safia Chowdhury</p>
+                  <p class="mt-5 text-lg font-bold">Safia Chowdhury</p>
                   <p class="text-sm">Fruits Expert</p>
                   <div class="flex gap-2 mt-4 justify-center">
                     <img width="25px" src="./images/linkedin.png" alt="" />
@@ -749,7 +758,7 @@
                 </div>
                 <div>
                   <img src="./images/member3.png" alt="" />
-                  <p class="mt-5 text-lg">Rokib Hossain</p>
+                  <p class="mt-5 text-lg font-bold">Rokib Hossain</p>
                   <p class="text-sm">Fruits Expert</p>
                   <div class="flex gap-2 mt-4 justify-center">
                     <img width="25px" src="./images/linkedin.png" alt="" />
@@ -759,7 +768,7 @@
                 </div>
                 <div>
                   <img src="./images/member4.png" alt="" />
-                  <p class="mt-5 text-lg">Chaity</p>
+                  <p class="mt-5 text-lg font-bold">Chaity</p>
                   <p class="text-sm">Fruits Expert</p>
                   <div class="flex gap-2 mt-4 justify-center">
                     <img width="25px" src="./images/linkedin.png" alt="" />
@@ -773,15 +782,175 @@
         </div>
       </div>
       <div class="my-10">
-        <div class="grid grid-cols-1 md:grid-cols-3">
-          <div class="flex-1"></div>
+        <div class="text-center py-10 space-y-6">
+          <p class="text-2xl md:text-5xl font-bold">Why Choose Us</p>
+          <p>
+            Contrary to popular belief, is not simply random text. It has roots
+            in a piece of classical <br />
+            Latin literature from 45 BC, making it over 2000 years old.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="flex-1">
+            <div class="space-y-8">
+              <div class="flex gap-5 items-center">
+                <div class="w-2/12">
+                  <img
+                    class="bg-slate-200 p-3 rounded-full"
+                    src="./images/group1.png"
+                    alt=""
+                  />
+                </div>
+                <div class="w-9/12 space-y-2">
+                  <p class="text-2xl font-bold">Dedicated Team</p>
+                  <hr class="w-1/3 border-1 border-neutral-950" />
+                  <p class="text-gray-600">
+                    Professional employees are there for you to pick the most
+                    amazing and fresh fruits.
+                  </p>
+                </div>
+              </div>
+              <div class="flex gap-5 items-center">
+                <div class="w-2/12">
+                  <img
+                    class="bg-slate-200 p-3 rounded-full"
+                    src="./images/love.png"
+                    alt=""
+                  />
+                </div>
+                <div class="w-9/12 space-y-2">
+                  <p class="text-2xl font-bold">Fresh is Best</p>
+                  <hr class="w-1/3 border-1 border-neutral-950" />
+                  <p class="text-gray-600">
+                    Professional employees are there for you to pick the most
+                    amazing and fresh fruits.
+                  </p>
+                </div>
+              </div>
+              <div class="flex gap-5 items-center">
+                <div class="w-2/12">
+                  <img
+                    class="bg-slate-200 p-2 rounded-full"
+                    src="./images/gift-box1.png"
+                    alt=""
+                  />
+                </div>
+                <div class="w-9/12 space-y-2">
+                  <p class="text-2xl font-bold">Gift Certificates</p>
+                  <hr class="w-1/3 border-1 border-neutral-950" />
+                  <p class="text-gray-600">
+                    Professional employees are there for you to pick the most
+                    amazing and fresh fruits.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="flex-1">
             <img src="./images/whychoose1.png" alt="" />
           </div>
-          <div class="flex-1"></div>
+          <div class="flex-1 text-right justify-end">
+            <div class="space-y-8">
+              <div class="flex gap-5 items-center flex-row-reverse">
+                <div class="w-2/12">
+                  <img
+                    class="bg-slate-200 p-3 rounded-full"
+                    src="./images/group1.png"
+                    alt=""
+                  />
+                </div>
+                <div class="w-9/12 space-y-2">
+                  <p class="text-2xl font-bold">Dedicated Team</p>
+                  <div class="flex justify-end">
+                    <hr class="w-1/2 border-1 border-neutral-950" />
+                  </div>
+                  <p class="text-gray-600">
+                    Professional employees are there for you to pick the most
+                    amazing and fresh fruits.
+                  </p>
+                </div>
+              </div>
+              <div class="flex gap-5 items-center flex-row-reverse">
+                <div class="w-2/12">
+                  <img
+                    class="bg-slate-200 p-3 rounded-full"
+                    src="./images/love.png"
+                    alt=""
+                  />
+                </div>
+                <div class="w-9/12 space-y-2">
+                  <p class="text-2xl font-bold">Fresh is Best</p>
+                  <div class="flex justify-end">
+                    <hr class="w-1/2 border-1 border-neutral-950" />
+                  </div>
+                  <p class="text-gray-600">
+                    Professional employees are there for you to pick the most
+                    amazing and fresh fruits.
+                  </p>
+                </div>
+              </div>
+              <div class="flex gap-5 items-center flex-row-reverse">
+                <div class="w-2/12">
+                  <img
+                    class="bg-slate-200 p-2 rounded-full"
+                    src="./images/gift-box1.png"
+                    alt=""
+                  />
+                </div>
+                <div class="w-9/12 space-y-2 items-end">
+                  <p class="text-2xl font-bold">Gift Certificates</p>
+                  <div class="flex justify-end">
+                    <hr class="w-1/2 border-1 border-neutral-950" />
+                  </div>
+                  <p class="text-gray-600">
+                    Professional employees are there for you to pick the most
+                    amazing and fresh fruits.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </main>
-    <footer></footer>
+    <footer
+      class="footer footer-center p-10 bg-footer-color text-neutral-content"
+    >
+      <div>
+        <div class="flex items-center justify-center gap-2">
+          <img src="./images/logo.png" alt="" />
+          <p class="font-bold text-3xl">Fruit Burst</p>
+        </div>
+        <!-- <table class="mt-8">
+          <tr >
+            <td class="pl-9">Home</td>
+            <td class="pl-9">About Us</td>
+            <td class="pl-9">Shop</td>
+            <td class="pl-9">All Fruits</td>
+            <td class="pl-9">Support</td>
+            <td class="pl-9">My Account</td>
+          </tr>
+        </table> -->
+        <div class="mt-8 flex flex-wrap gap-2 md:gap-9">
+          <p>Home</p>
+          <p>About Us</p>
+          <p>Shop</p>
+          <p>All Fruits</p>
+          <p>Support</p>
+          <p>My Account</p>
+        </div>
+      </div>
+      <div>
+        <div class="flex flex-wrap gap-8 mb-20">
+          <img class="h-7" src="./images/New folder/apple.png" alt="">
+          <img class="h-7" src="./images/New folder/facebook.png" alt="">
+          <img class="h-7" src="./images/New folder/Group.png" alt="">
+          <img class="h-7" src="./images/New folder/instagram.png" alt="">
+          <img class="h-7" src="./images/New folder/linkedin.png" alt="">
+          <img class="h-7" src="./images/New folder/twitter.png" alt="">
+
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
